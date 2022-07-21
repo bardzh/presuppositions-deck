@@ -1,0 +1,23 @@
+.main {
+  cursor: url("cursor.png")
+      39 39,
+    auto;
+    @apply bg-blue-200 overflow-hidden w-screen h-screen relative;
+}
+
+.main > div {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: none;
+}
+
+.card {
+  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4),
+    0 10px 10px -10px rgba(50, 50, 73, 0.3);
+  @apply p-4 py-10 flex flex-col rounded-xl will-change-transform max-h-[570px] min-h-[400px] w-full max-w-[300px] bg-white;
+}

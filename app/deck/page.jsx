@@ -182,7 +182,7 @@ export default function Deck() {
           transition={{ duration: 1 }}
           className="fixed inset-x-0 px-4 text-2xl font-semibold text-center text-blue-800 top-6"
         >
-          You have {selected.length} selected positions, Discard{" "}
+          You have {selected.length} selected cards, Discard{" "}
           {selected.length - 5} to continue.
         </motion.h2>
       )}

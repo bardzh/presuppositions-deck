@@ -10,7 +10,7 @@ export default function Deck() {
         transition={{ duration: 1, delay: 0 }}
         className="mt-4 text-4xl font-semibold leading-normal text-center text-blue-800"
       >
-        Now pick up five positions that you think can help you solve your
+        Now pick up five presuppositions that you think can help you solve your
         problem. <br />
       </motion.div>
       <motion.div
